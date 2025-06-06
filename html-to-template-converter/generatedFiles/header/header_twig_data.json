@@ -1,0 +1,18 @@
+{
+  "logo": {
+    "blocks": [
+      {
+        "key": "7j86p",
+        "text": "TemplateEditor",
+        "type": "unstyled",
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "menu_Home": "Home",
+  "menu_About": "About",
+  "menu_Contact": "Contact"
+}

@@ -1,0 +1,36 @@
+@import "../../../styles/variables";
+
+.editor__tooltip {
+  position: absolute !important;
+  z-index: 10000000;
+  left: 108px;
+  top: 80px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+  .editor__tooltip-body {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 6px;
+    min-width: 40px;
+    background-color: $background_light;
+    box-shadow: 0 6px 18px 0 $shadow_grey_medium;
+  }
+}
+
+.editor__toolbar {
+  position: absolute !important;
+  z-index: 10000;
+  font-family: $font_default;
+  display: flex;
+}
+
+.editor__toolbar-body {
+  display: flex;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 6px;
+  min-width: 20px;
+  background-color: $background_light;
+  box-shadow: 0 6px 18px 0 $shadow_grey_medium;
+}

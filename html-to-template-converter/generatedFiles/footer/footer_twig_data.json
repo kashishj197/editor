@@ -1,0 +1,18 @@
+{
+  "copyright": {
+    "blocks": [
+      {
+        "key": "8jfem",
+        "text": "© 2025 Your Company. All rights reserved.",
+        "type": "unstyled",
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "footer_links_Privacy": "Privacy",
+  "footer_links_Terms": "Terms",
+  "footer_links_Support": "Support"
+}

@@ -1,0 +1,13 @@
+@import "editor";
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: #f9fafb;
+  color: #1e40af;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}

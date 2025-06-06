@@ -1,0 +1,140 @@
+{
+  "styles": {
+    "children": {
+      ".terms-container": {
+        "attributes": {
+          "font-family": "Arial, sans-serif",
+          "background-color": "#f8fafc",
+          "margin": "0 auto",
+          "padding": "32px",
+          "line-height": "1.6",
+          "color": "#1e293b",
+          "max-width": "800px",
+          "background": "#fff",
+          "border": "1px solid #e2e8f0",
+          "border-radius": "8px"
+        }
+      },
+      ".terms-section": {
+        "attributes": {
+          "margin-bottom": "32px"
+        }
+      },
+      ".terms-section h2": {
+        "attributes": {
+          "font-size": "18px",
+          "font-weight": "bold",
+          "margin-bottom": "12px",
+          "color": "#0f172a"
+        }
+      },
+      ".terms-section p": {
+        "attributes": {
+          "font-size": "14px",
+          "margin-bottom": "14px",
+          "text-align": "justify"
+        }
+      }
+    },
+    "attributes": []
+  },
+  "template": {
+    "tagName": "div",
+    "attrs": {
+      "className": [
+        "terms-container"
+      ]
+    },
+    "children": [
+      {
+        "tagName": "div",
+        "attrs": {
+          "className": [
+            "terms-section"
+          ]
+        },
+        "children": [
+          {
+            "tagName": "h2",
+            "attrs": {},
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.section_1_heading"
+              },
+              "tooltip": {
+                "headers": true,
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "uppercase": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "align": true,
+                "link": true,
+                "color": true
+              }
+            }
+          },
+          {
+            "tagName": "p",
+            "attrs": {},
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.section_2_text"
+              },
+              "tooltip": {
+                "headers": true,
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "uppercase": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "align": true,
+                "ul": true,
+                "ol": true,
+                "link": true,
+                "color": true
+              }
+            }
+          },
+          {
+            "tagName": "p",
+            "attrs": {},
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.section_2_text"
+              },
+              "tooltip": {
+                "headers": true,
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "uppercase": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "align": true,
+                "ul": true,
+                "ol": true,
+                "link": true,
+                "color": true
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+.editor__sidebar-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.editor__publish-button {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 179, 42, 0.1);
+  font-size: 16px;
+}

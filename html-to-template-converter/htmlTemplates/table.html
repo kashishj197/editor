@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign In</title>
+    <style>
+      .table-block {
+        padding: 40px 0;
+        background-color: #f8fafc;
+        display: flex;
+        justify-content: center;
+      }
+
+      .table-block__container {
+        width: 100%;
+        max-width: 800px;
+        padding: 24px;
+        background-color: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+      }
+
+      .table-block__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        color: #1e293b;
+        text-align: center;
+      }
+
+      .table-block__table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .table-block__th,
+      .table-block__td {
+        padding: 12px;
+        border: 1px solid #cbd5e1;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      .table-block__th {
+        background-color: #f1f5f9;
+        font-weight: 600;
+        color: #0f172a;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="table-block">
+      <div class="table-block__container">
+        <h2
+          class="table-block__title"
+          data-key="title"
+          data-editor="true"
+          data-editor-options='{"headers":true,"bold":true,"italic":true,"underline":true,"strikethrough":true,"uppercase":true,"fontSize":true,"lineHeight":true,"letterSpacing":true,"align":true,"link":true,"color":true}'
+        >
+          Team Members
+        </h2>
+        <table class="table-block__table" data-key="table">
+          <thead>
+            <tr>
+              <th class="table-block__th" data-key="thead_name">Name</th>
+              <th class="table-block__th" data-key="thead_role">Role</th>
+              <th class="table-block__th" data-key="thead_email">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-block__td" data-key="row1_name">
+                Alice Johnson
+              </td>
+              <td class="table-block__td" data-key="row1_role">Designer</td>
+              <td class="table-block__td" data-key="row1_email">
+                alice@example.com
+              </td>
+            </tr>
+            <tr>
+              <td class="table-block__td" data-key="row2_name">Bob Smith</td>
+              <td class="table-block__td" data-key="row2_role">Developer</td>
+              <td class="table-block__td" data-key="row2_email">
+                bob@example.com
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

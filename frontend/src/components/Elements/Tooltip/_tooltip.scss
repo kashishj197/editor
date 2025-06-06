@@ -1,0 +1,25 @@
+.tooltip__block {
+  background-color: rgba(49, 46, 85, 0.95);
+  color: white;
+  font-weight: normal;
+  line-height: 1.67;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.tooltip__block-error {
+  background-color: rgba(227, 81, 81, 0.95);
+}
+
+.tooltip__block-warning {
+  background-color: rgba(255, 179, 42, 0.95);
+}
+
+.tooltip__block-success {
+  background-color: rgba(112, 175, 45, 0.95);
+}
+
+_:-ms-lang(x),
+.tooltip__block {
+  margin-left: -7px;
+}

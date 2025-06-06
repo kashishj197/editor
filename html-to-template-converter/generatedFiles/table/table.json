@@ -1,0 +1,283 @@
+{
+  "styles": {
+    "children": {
+      ".table-block": {
+        "attributes": {
+          "padding": "40px 0",
+          "background-color": "#f8fafc",
+          "display": "flex",
+          "justify-content": "center"
+        }
+      },
+      ".table-block__container": {
+        "attributes": {
+          "width": "100%",
+          "max-width": "800px",
+          "padding": "24px",
+          "background-color": "#ffffff",
+          "border": "1px solid #e2e8f0",
+          "border-radius": "8px"
+        }
+      },
+      ".table-block__title": {
+        "attributes": {
+          "font-size": "20px",
+          "font-weight": "bold",
+          "margin-bottom": "16px",
+          "color": "#1e293b",
+          "text-align": "center"
+        }
+      },
+      ".table-block__table": {
+        "attributes": {
+          "width": "100%",
+          "border-collapse": "collapse"
+        }
+      },
+      ".table-block__th": {
+        "attributes": {
+          "padding": "12px",
+          "border": "1px solid #cbd5e1",
+          "text-align": "left",
+          "font-size": "14px",
+          "background-color": "#f1f5f9",
+          "font-weight": "600",
+          "color": "#0f172a"
+        }
+      },
+      ".table-block__td": {
+        "attributes": {
+          "padding": "12px",
+          "border": "1px solid #cbd5e1",
+          "text-align": "left",
+          "font-size": "14px"
+        }
+      }
+    },
+    "attributes": []
+  },
+  "template": {
+    "tagName": "section",
+    "attrs": {
+      "className": [
+        "table-block"
+      ]
+    },
+    "children": [
+      {
+        "tagName": "div",
+        "attrs": {
+          "className": [
+            "table-block__container"
+          ]
+        },
+        "children": [
+          {
+            "tagName": "h2",
+            "attrs": {
+              "className": [
+                "table-block__title"
+              ]
+            },
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.title"
+              },
+              "tooltip": {
+                "headers": true,
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "uppercase": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "align": true,
+                "link": true,
+                "color": true
+              }
+            }
+          },
+          {
+            "tagName": "table",
+            "attrs": {
+              "className": [
+                "table-block__table"
+              ]
+            },
+            "children": [
+              {
+                "tagName": "thead",
+                "attrs": {},
+                "children": [
+                  {
+                    "tagName": "tr",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tagName": "th",
+                        "attrs": {
+                          "className": [
+                            "table-block__th"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_thead_name"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "th",
+                        "attrs": {
+                          "className": [
+                            "table-block__th"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_thead_role"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "th",
+                        "attrs": {
+                          "className": [
+                            "table-block__th"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_thead_email"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tagName": "tbody",
+                "attrs": {},
+                "children": [
+                  {
+                    "tagName": "tr",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row1_name"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row1_role"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row1_email"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "tagName": "tr",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row2_name"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row2_role"
+                          }
+                        }
+                      },
+                      {
+                        "tagName": "td",
+                        "attrs": {
+                          "className": [
+                            "table-block__td"
+                          ]
+                        },
+                        "text": {
+                          "editor": null,
+                          "source": {
+                            "typeData": "data",
+                            "value": "twig.table_row2_email"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

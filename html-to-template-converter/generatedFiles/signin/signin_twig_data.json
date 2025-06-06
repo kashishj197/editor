@@ -1,0 +1,19 @@
+{
+  "title": {
+    "blocks": [
+      {
+        "key": "93ufo",
+        "text": "Sign In to Your Account",
+        "type": "unstyled",
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "form_email_label": "Email",
+  "form_password_label": "Password",
+  "form_button": "Sign In",
+  "footer_text": "Register"
+}

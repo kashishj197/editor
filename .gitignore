@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.env
+.env.*
+
+# ReactJS
+build/
+dist/
+.cache/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# ASP.NET with C#
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.ncrunch*
+_ReSharper*/
+*.DotSettings.user
+TestResults/
+*.Publish.xml
+*.localhistory/
+*.idea/
+*.sln.ide
+*.swp
+*.bak
+*.tmp
+*.tmp/
+*.pidb
+*.svclog
+*.scc
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk

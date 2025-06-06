@@ -1,0 +1,120 @@
+{
+  "styles": {
+    "children": {
+      ".about-block": {
+        "attributes": {
+          "padding": "40px 0",
+          "background-color": "#f8fafc",
+          "display": "flex",
+          "justify-content": "center"
+        }
+      },
+      ".about-block__container": {
+        "attributes": {
+          "width": "100%",
+          "max-width": "800px",
+          "padding": "24px",
+          "background-color": "#ffffff",
+          "border": "1px solid #e2e8f0",
+          "border-radius": "8px"
+        }
+      },
+      ".about-block__title": {
+        "attributes": {
+          "font-size": "20px",
+          "font-weight": "bold",
+          "margin-bottom": "16px",
+          "color": "#1e293b",
+          "text-align": "center"
+        }
+      },
+      ".about-block__description": {
+        "attributes": {
+          "font-size": "16px",
+          "color": "#334155",
+          "line-height": "1.6",
+          "text-align": "justify"
+        }
+      }
+    },
+    "attributes": []
+  },
+  "template": {
+    "tagName": "section",
+    "attrs": {
+      "className": [
+        "about-block"
+      ]
+    },
+    "children": [
+      {
+        "tagName": "div",
+        "attrs": {
+          "className": [
+            "about-block__container"
+          ]
+        },
+        "children": [
+          {
+            "tagName": "div",
+            "attrs": {
+              "className": [
+                "about-block__title"
+              ]
+            },
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.title"
+              },
+              "tooltip": {
+                "headers": true,
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "uppercase": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "align": true,
+                "link": true,
+                "color": true
+              }
+            }
+          },
+          {
+            "tagName": "p",
+            "attrs": {
+              "className": [
+                "about-block__description"
+              ]
+            },
+            "text": {
+              "editor": true,
+              "source": {
+                "typeData": "data",
+                "value": "twig.description"
+              },
+              "tooltip": {
+                "bold": true,
+                "italic": true,
+                "underline": true,
+                "strikethrough": true,
+                "fontSize": true,
+                "lineHeight": true,
+                "letterSpacing": true,
+                "link": true,
+                "ol": true,
+                "ul": true,
+                "color": true,
+                "align": true
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Header Block</title>
+    <style>
+      .body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f4f6;
+      }
+      .body a {
+        color: var(--primary-color, #1e40af);
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .header__logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #1e293b;
+      }
+      .header__nav {
+        display: flex;
+        gap: 24px;
+      }
+      .header__link {
+        color: #1e293b;
+        text-decoration: none;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div
+        class="header__logo"
+        data-key="logo"
+        data-editor="true"
+        data-editor-options='{"headers":true,"bold":true,"italic":true,"underline":true,"strikethrough":true,"uppercase":true,"fontSize":true,"lineHeight":true,"letterSpacing":true,"align":true,"link":true,"color":true,"clear":true}'
+      >
+        TemplateEditor
+      </div>
+      <nav class="header__nav" data-key="menu">
+        <a class="header__link" href="#" data-key="Home">Home</a>
+        <a class="header__link" href="#" data-key="About">About</a>
+        <a class="header__link" href="#" data-key="Contact">Contact</a>
+      </nav>
+    </header>
+  </body>
+</html>

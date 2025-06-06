@@ -1,0 +1,145 @@
+{
+  "styles": {
+    "children": {
+      ".body": {
+        "attributes": {
+          "font-family": "Arial, sans-serif",
+          "margin": "0",
+          "padding": "0",
+          "background-color": "#f3f4f6"
+        }
+      },
+      ".body a": {
+        "attributes": {
+          "color": "var(--primary-color, #1e40af)"
+        }
+      },
+      ".header": {
+        "attributes": {
+          "display": "flex",
+          "justify-content": "space-between",
+          "align-items": "center",
+          "padding": "16px",
+          "background-color": "#ffffff",
+          "border-bottom": "1px solid #e5e7eb"
+        }
+      },
+      ".header__logo": {
+        "attributes": {
+          "font-size": "20px",
+          "font-weight": "bold",
+          "color": "#1e293b"
+        }
+      },
+      ".header__nav": {
+        "attributes": {
+          "display": "flex",
+          "gap": "24px"
+        }
+      },
+      ".header__link": {
+        "attributes": {
+          "color": "#1e293b",
+          "text-decoration": "none",
+          "font-size": "16px"
+        }
+      }
+    },
+    "attributes": []
+  },
+  "template": {
+    "tagName": "header",
+    "attrs": {
+      "className": [
+        "header"
+      ]
+    },
+    "children": [
+      {
+        "tagName": "div",
+        "attrs": {
+          "className": [
+            "header__logo"
+          ]
+        },
+        "text": {
+          "editor": true,
+          "source": {
+            "typeData": "data",
+            "value": "twig.logo"
+          },
+          "tooltip": {
+            "headers": true,
+            "bold": true,
+            "italic": true,
+            "underline": true,
+            "strikethrough": true,
+            "uppercase": true,
+            "fontSize": true,
+            "lineHeight": true,
+            "letterSpacing": true,
+            "align": true,
+            "link": true,
+            "color": true,
+            "clear": true
+          }
+        }
+      },
+      {
+        "tagName": "nav",
+        "attrs": {
+          "className": [
+            "header__nav"
+          ]
+        },
+        "children": [
+          {
+            "tagName": "a",
+            "attrs": {
+              "className": [
+                "header__link"
+              ]
+            },
+            "text": {
+              "editor": null,
+              "source": {
+                "typeData": "data",
+                "value": "twig.menu_Home"
+              }
+            }
+          },
+          {
+            "tagName": "a",
+            "attrs": {
+              "className": [
+                "header__link"
+              ]
+            },
+            "text": {
+              "editor": null,
+              "source": {
+                "typeData": "data",
+                "value": "twig.menu_About"
+              }
+            }
+          },
+          {
+            "tagName": "a",
+            "attrs": {
+              "className": [
+                "header__link"
+              ]
+            },
+            "text": {
+              "editor": null,
+              "source": {
+                "typeData": "data",
+                "value": "twig.menu_Contact"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": {
+    "blocks": [
+      {
+        "key": "cg5g8",
+        "text": "About Us",
+        "type": "unstyled",
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  },
+  "description": {
+    "blocks": [
+      {
+        "key": "cde19",
+        "text": "We are a passionate team dedicated to crafting exceptional digital\n          experiences. Our mission is to blend innovation with usability,\n          creating solutions that make a real impact. With years of experience\n          in design, development, and strategy, we partner with clients to\n          transform ideas into reality.",
+        "type": "unstyled",
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ],
+    "entityMap": {}
+  }
+}

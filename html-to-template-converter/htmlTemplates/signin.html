@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign In</title>
+    <style>
+      .signin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        background-color: #f9fafb;
+      }
+
+      .signin__container {
+        width: 100%;
+        max-width: 400px;
+        background-color: #ffffff;
+        padding: 24px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+      }
+
+      .signin__title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 24px;
+        color: #1e293b;
+        text-align: center;
+      }
+
+      .signin__form-group {
+        margin-bottom: 16px;
+      }
+
+      .signin__label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: #334155;
+      }
+
+      .signin__input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+
+      .signin__button {
+        width: 100%;
+        padding: 12px;
+        background-color: #1e40af;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .signin__footer-text {
+        font-size: 13px;
+        color: #475569;
+        text-align: center;
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="signin">
+      <div class="signin__container">
+        <h2
+          class="signin__title"
+          data-key="title"
+          data-editor="true"
+          data-editor-options='{"headers":true,"bold":true,"align":true,"fontSize":true}'
+        >
+          Sign In to Your Account
+        </h2>
+        <form class="signin__form" data-key="form">
+          <div class="signin__form-group">
+            <label class="signin__label" for="email" data-key="email_label"
+              >Email</label
+            >
+            <input
+              class="signin__input"
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="signin__form-group">
+            <label
+              class="signin__label"
+              for="password"
+              data-key="password_label"
+              >Password</label
+            >
+            <input
+              class="signin__input"
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <button class="signin__button" type="submit" data-key="button">
+            Sign In
+          </button>
+        </form>
+        <p
+          class="signin__footer-text"
+          data-key="footer_text"
+          data-editor="true"
+          data-editor-options='{"bold":true,"italic":true,"link":true}'
+        >
+          Don’t have an account? <a href="#">Register</a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
